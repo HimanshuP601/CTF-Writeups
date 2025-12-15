@@ -98,8 +98,13 @@ for key in range(256):
         best_plaintext = candidate
         best_key = key
 
-print(best_plaintext)
+print(best_plaintext.decode())
 print("key =", best_key)
 print("score =", best_score)
 ```
-
+output:
+```bash
+Cooking MC's like a pound of bacon
+key = 88
+score = 4.329118885751811
+```
